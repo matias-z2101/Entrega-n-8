@@ -1,0 +1,52 @@
+footer{
+    display: flex;
+    width: $ancho;
+    height: $auto;
+    color: rgb(156, 52, 154);
+    background-color: rgb(141, 38, 102);
+}
+.container__contacto--footer{
+    padding: 20px;
+    margin-top: 50px;
+    width: $auto;
+    height: $auto;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.container__redes{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: $auto;
+    height: $auto;
+}
+.instagram{
+    width: $auto;
+    height: $auto;
+    transform: scale(0.2);
+}
+.instagram:hover{
+    border: solid 2px rgb(179, 23, 23);
+}
+.facebook{
+    width: $auto;
+    height: $auto;
+    transform: scale(0.2);
+}
+.facebook:hover{
+    border: solid 2px rgb(3, 21, 182);
+}
+.whatsapp{
+    width: $auto;
+    height: $auto;
+    transform: scale(0.2);
+}
+.whatsapp:hover{
+    border: solid 2px rgb(0, 156, 13);
+}
+.section__footer{
+    margin-top: 300px;
+}

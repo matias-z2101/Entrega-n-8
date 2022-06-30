@@ -1,0 +1,27 @@
+header{
+    background: linear-gradient(90deg, rgba(217,105,77,1) 35%, rgba(255,255,255,1) 49%, rgba(217,203,46,1) 83%);
+    animation-name: animacion;
+	animation-iteration-count: infinite;
+	animation-duration: 12s;
+	animation-delay: 0s;
+	background-size: 500% 500%;
+    width: $ancho;
+    height: $auto;
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(211, 195, 73);
+}
+.contenedoraHeader{
+    width: $ancho;
+    height: $auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.nombre{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: $ancho;
+    height: $auto;
+    color: rgb(78, 72, 74);
+}

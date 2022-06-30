@@ -1,0 +1,18 @@
+.section{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin-top: 10px;
+    width: $ancho;
+    height: $auto;
+    background-color: rgb(234, 213, 145);
+}
+#contenedor__carousel{
+    width: 500px;
+    height: $auto;
+    margin-top: 50px;
+    margin-left: 600px;
+}
+#contenedor__carousel:hover{
+    border: solid 1.5px rgb(209, 173, 53);
+}

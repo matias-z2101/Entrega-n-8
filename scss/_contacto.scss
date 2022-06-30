@@ -1,0 +1,33 @@
+.contenedorformulario{
+    padding: 10px;
+}
+.formularios{
+    padding: 40px;
+    gap: 20px;
+}
+.mapa{
+    width: 1200PX;
+    margin-left: 200px;
+}
+.submit{
+    color: white;
+    background-color: rgb(133, 22, 64);
+}
+.submit:hover{
+    color: black;
+    background-color: rgb(196, 34, 69);
+}
+fieldset{
+    padding: 5px;
+    margin: 5px;
+}
+input{
+    background-color: rgb(238, 219, 95);
+}
+iframe{
+    padding: 10px;
+    width: $ancho;
+}
+iframe:hover{
+    border: 1.5px solid rgb(235, 223, 223);
+}

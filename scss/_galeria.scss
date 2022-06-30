@@ -1,0 +1,26 @@
+.section__galeria{
+    width: $ancho;
+    height: $auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    "video1"
+    "video2"
+    "footer";
+}
+#footer__galeria{
+    margin-top: 600px;
+}
+.video1{
+    grid-area: video1;
+}
+.video2{
+    grid-area: video2;
+}
+.multimedia{
+    padding: 10px;
+    width: $ancho;
+    height: 200px;
+    background-color: rgb(186, 117, 117);
+}
